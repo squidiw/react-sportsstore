@@ -33,7 +33,7 @@ export const ShopConnector = connect(ds => ds, mapDispatchToProps)(
                 default:
                     return <Redirect to="/shop/products/all/1" />
             }
-        }
+    }
 
         render() {
             return <Switch>
